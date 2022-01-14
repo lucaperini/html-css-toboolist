@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(247, 240, 240);
+}
+
+header {
+    height:90px;
+    background-color:#fff;
+    padding-top: 10px;
+    
+}
+
+.logo-main {
+    height: 70px;
+    vertical-align: middle;
+    
+    
+}
+
+.logo-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    vertical-align: middle;
+    
+    
+}
+
+.container {
+    
+    margin-top:20px;
+    width: 800px;
+    height:600px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius:5px;
+    }
+
+.buttons {
+    margin-left:50px;
+    padding:15px;
+    text-align: left;
+}
+
+.task-button{
+    color:white;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.section-button{
+    color: lightgrey;
+    background-color:#fff ;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding:5px;
+    margin-left:10px;
+}
+
+
+
+hr {
+    
+    color:rgb(247, 240, 240);
+    
+}
+
