@@ -1,13 +1,10 @@
+/* RESET */
 *{
     box-sizing: border-box;
     margin: 0;
     padding:0;
 }
-
-body {
-    background-color: rgb(247, 240, 240);
-}
-
+/* impostazione header */
 header {
     height:90px;
     background-color:#fff;
@@ -15,27 +12,46 @@ header {
     
 }
 
+body {
+    background-color: rgb(247, 240, 240);
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    margin-left:60px;
+    margin-top:50px;
+}
+
+hr{
+    color: rgb(247, 243, 243);
+    width: 800px;
+    margin: right 5px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
 .logo-main {
     height: 70px;
     vertical-align: middle;
-    
-    
-}
+    }
+
 
 .logo-text {
     font-family: Helvetica, sans-serif;
     font-size: 2.5em;
     font-weight: 900;
     vertical-align: middle;
-    
-    
 }
 
 .container {
-    
+    margin-left:auto;
+    margin-right:auto;
     margin-top:20px;
     width: 800px;
-    height:600px;
+    height:700px;
     background-color: white;
     border: 3px solid white;
     border-radius:5px;
@@ -49,26 +65,120 @@ header {
 
 .task-button{
     color:white;
+    font-weight:bold;
     background-color: cornflowerblue;
     border: 2px solid cornflowerblue;
     border-radius: 5px;
     padding:5px;
+    font-family: Helvetica, sans-serif;
 }
 
 .section-button{
     color: lightgrey;
+    font-weight:bold;
     background-color:#fff ;
     border: 2px solid lightgrey;
     border-radius: 5px;
     padding:5px;
     margin-left:10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.task-item{
+
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: darkgray;
+    margin-top: 20px;
+    margin-left:60px;
 }
 
 
-
-hr {
-    
-    color:rgb(247, 240, 240);
-    
+.editorial-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
 }
 
+.goal-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: violet;
+    border: 2px solid violet;
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
+
+.recruiting-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
+
+.mobile-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
+
+.website-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: rgb(160, 10, 160);
+    border: 2px solid rgb(160, 10, 160);
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
+
+.sales-category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    background-color: rgb(67, 206, 67);
+    border: 2px solid rgb(67, 206, 67);
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
+
+.task-done {
+    color: lightgreen;
+    background-color:white;
+    border: 1px solid lightgreen;
+    margin-right:5px;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    font-size:15px;
+    padding:5px;
+    }
+.task-undone {
+    color: red;
+    background-color:white;
+    border: 1px solid red;
+    margin-right:5px;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    font-size:10px;
+    padding:5px;
+    }
