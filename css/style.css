@@ -6,7 +6,6 @@
 }
 
 /* impostazione header */
-
 header {
     height:90px;
     background-color:#fff;
@@ -15,13 +14,11 @@ header {
 }
 
 /* assegnazione colore background della pagina */
-
 body {
     background-color: rgb(247, 240, 240);
 }
 
 /* definizione tipografica e posizionamento titolo task/attività */
-
 h3 {
     font-family: Helvetica, sans-serif;
     margin-left:65px;
@@ -36,26 +33,24 @@ hr{
     }
 
 /* definizione lista unordered senza bullets */
-
 ul {
     list-style-type: none;
 }
 
 /* posizionamento e dimension del logo */
-
 .logo-main {
     height: 70px;
     vertical-align: middle;
     }
 
 /* font e posizionamento del testo nell'header */
-
 .logo-text {
     font-family: Helvetica, sans-serif;
     font-size: 2.5em;
     font-weight: 900;
     vertical-align: middle;
 }
+
 /* stilizzazione contenitore della lista di attività */
 .container {
     margin-left:auto;
@@ -69,7 +64,6 @@ ul {
     }
 
 /* posizionamento bottoni  */
-
 .buttons {
     margin-left:50px;
     padding:15px;
@@ -77,7 +71,6 @@ ul {
 }
 
 /* impostazione del bottone di aggiunta attività*/
-
 .task-button {
     color:white;
     font-weight:bold;
@@ -87,6 +80,7 @@ ul {
     padding:5px;
     font-family: Helvetica, sans-serif;
 }
+
 /* impostazione del bottone di aggiunta nuova sezione */
 .section-button{
     color: lightgrey;
@@ -103,7 +97,7 @@ ul {
     margin-right:5px;
 }
 
-/* impostazione voci in elenco attività (font, colore e allineamento */
+/* impostazione voci in elenco attività (font, colore e allineamento) */
 .task-item{
     font-family: Helvetica, sans-serif;
     font-size: 20px;
@@ -114,97 +108,71 @@ ul {
 }
 
 /* etichette delle attività */
+.category {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    border-radius:15px;
+    padding: 4px 15px 4px 15px;
+    vertical-align: middle;
+}
 
 .editorial-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: cornflowerblue;
     border: 2px solid cornflowerblue; 
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
-}
+    }
 
 .goal-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: violet;
     border: 2px solid violet;
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
-}
+    }
 
 .recruiting-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: green;
     border: 2px solid green;
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
-}
+    }
 
 .mobile-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: orange;
     border: 2px solid orange;
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
+    
 }
 
 .website-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: rgb(160, 10, 160);
     border: 2px solid rgb(160, 10, 160);
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
+    
 }
 
 .sales-category {
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color:white;
     background-color: rgb(67, 206, 67);
     border: 2px solid rgb(67, 206, 67);
-    border-radius:15px;
-    padding: 4px 15px 4px 15px;
-    vertical-align: middle;
+    }
+
+
+    /* definizione generale stato attività */
+.task{
+    background-color:white;
+    margin-right:5px;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    font-size:10px;
+    display:inline-block;
 }
+
 /* cerchietto con segno di spunta per indicare un'attività svolta */
 .task-done {
     color: lightgreen;
-    background-color:white;
     border: 1px solid lightgreen;
-    margin-right:5px;
-    border-radius:50%;
-    width:20px;
-    height:20px;
-    font-size:10px;
     padding:4px;
-    display:inline-block;
     }
-    /* cerchietto con croce per indicare un'attività ancora non completata */
-    .task-undone {
+
+/* cerchietto con croce per indicare un'attività ancora non completata */
+.task-undone {
     color: red;
-    background-color:white;
     border: 1px solid red;
-    margin-right:5px;
-    border-radius:50%;
-    width:20px;
-    height:20px;
-    font-size:10px;
     padding:3px;
-    display:inline-block;
     text-align:center;
     vertical-align:middle;
 }
